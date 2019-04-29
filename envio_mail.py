@@ -7,7 +7,7 @@ def send():
     #threading.Timer(interval, send).start()
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
-    sender_email = "MiEmail"#eMail
+    sender_email = "TuEmail"#eMail
     receiver_email = input('Ingrese el mail destinatario:') 
     password = "" #Pass
     message = """\
